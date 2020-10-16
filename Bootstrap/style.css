@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(rgb(133, 85, 93),white);
+    font-family: verdana;
+    color: black;
+}
+input:hover{
+    background-color: rgb(63, 239, 245);
+    color: white;
+}
+
+.img{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+.align{
+    background-image: url('images/bg3.svg');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: center ;
+    z-index: auto; 
+    padding: auto;               
+}
+
+small{
+    color: white;
+}
+
+
